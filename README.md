@@ -7,7 +7,7 @@
 # 👋 Hello World! 
 ### I’m André Antunes, but you can call me @decofma :)
 
-##### 🌱 I'm a computer engeneering student at @UVA and currently working as at @WilsonSons
+##### 🌱 I'm a computer engeneering student at @UVA and currently working as software developer at @WilsonSons
 ##### 👀 If you like coding, games, music and some spiritual stuff, high five me 🖐️
 <div style="display: inline_block"><br>
   <img align="center" alt="deco-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
