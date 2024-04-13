@@ -1,0 +1,32 @@
+.menubar{
+    padding: 1rem;
+    padding-inline-start: 5rem;
+    padding-inline-end: 5rem;
+    border-radius: 0;
+    border: none;
+    background-color:rgb(255, 255, 255);
+    box-shadow: 0 10px 100px rgba(0,0,0,0.1);
+    position: fixed;
+    width: -webkit-fill-available;
+    z-index: 2;
+}
+
+.menubar a{
+    padding-inline: 2rem;
+}
+
+.menubar span:hover{
+    color: #7843E9;
+}
+
+.menubar span{
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.menubar div{
+    margin-left: auto;
+}
+.menubar div > a > img{
+    filter:brightness(0);
+}
