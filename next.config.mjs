@@ -7,4 +7,5 @@ const nextConfig = {
     loaderFile: './my-loader.ts',
   },
 };
-module.exports = nextConfig
+
+export default nextConfig;
