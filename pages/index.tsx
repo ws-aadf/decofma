@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         
         <div id="homeSection" className={styles.imagecontainer}>
-            <Image  className={styles.image} src="/portfolio/public/me.png" alt="yep, that's me" width={100} height={65} quality={100} priority={true}/>
+            <Image  className={styles.image} src="/me.png" alt="yep, that's me" width={500} height={500} quality={100} priority={true}/>
         </div>
 
         <h1 className={styles.title}>
@@ -31,7 +31,7 @@ export default function Home() {
             typewriter.typeString("Welcome to my portfolio.")
           }}/>
         </h1>
-        <div id="aboutSection"></div>
+        <div id="aboutSection"/>
         <div className={styles.bio}>
           <div className={styles.code}> 
             I`m a software engineer and fullstack developer @ WilsonSons
@@ -47,7 +47,7 @@ export default function Home() {
               As the header says, I`m a software engineer and full stack systems analyst at <b>Wilson Sons</b>. I`m responsible for developing web-apps solutions and APIs for the entire company, from a solid backend to a functional UX driven frontend. I also worked at <b>Vtex</b> and had my Vtex IO certification to build fluid, functional and responsible e-commerces and <b>Banco Bradesco</b> where i had the experience to develop on IT project management. 
             </p> 
           </div>
-          <div id="techSection"></div>
+          <div id="techSection"/>
             <div className={styles.card}> 
               <h2> Technologies that I work with </h2>
               <div className={styles.divider}/>        
@@ -92,25 +92,47 @@ export default function Home() {
               </div>
             </div>
         </div>
+        
+        <div id="projectsSection"/>
+        <div className={styles.projectsContainer}>
+          <div className={styles.card}>
+            <h2> Projects </h2>
+            <div className={styles.divider}/> 
+          </div>
+          <div className={styles.projectsGrid}>
+            <div className={styles.project}>
+              <div><Image  src="/adocat-mockup.png" alt="React" width={500} height={500} quality={100} /></div>
+              <div className={styles.projectTextContainer}><p className={styles.projectText}>Projeto de monografia, onde foi desenvolvido uma aplicação utlizando React Native, Prisma e SQLite para adoção de gatos.</p>
+              </div>
+            </div>
+            <div className={styles.project}>
+              <div><Image  src="/wppgpt-mockup.png" alt="React" width={500} height={500} quality={100} /></div>
+              <div className={styles.projectTextContainer}><p className={styles.projectText}>Projeto de estudo sobre a OpenAi, onde foi desenvolvido uma aplicação utlizando Typescript para criar um bot no WhatsApp de IA.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
         <div id="contactSection"/>
         <div  className={styles.contactBox}>
           <h2>Where to find me</h2> 
           <div className={styles.contact}>
             
-            <a href="https://www.linkedin.com/in/andreamferraz/"> In
-            {/* <Image  src="/" alt="React" title="React" width={50} height={50} quality={100} /> */}
+            <a href="https://www.linkedin.com/in/andreamferraz/"> 
+            <Image  src="/linkedin.png" alt="React" width={50} height={50} quality={100} />
             </a>
-            <a href="https://www.instagram.com/decofma/"> Ig
-            {/* <Image  src="insta.png" alt="React" title="React" width={50} height={50} quality={100} /> */}
+            <a href="https://medium.com/@decofma">
+            <Image  src="/blogger.png" alt="React" width={50} height={50} quality={100} />
             </a>
-            <a href="mailto:andrem.ferraz@hotmail.com"> Email
-            {/* <Image  src="email.png" alt="React" title="React" width={50} height={50} quality={100} /> */}
+            <a href="mailto:andrem.ferraz@hotmail.com">
+            <Image  src="/o-email.png" alt="React" width={50} height={50} quality={100} />
             </a>
-            <a href="https://github.com/decofma"> Github
-            {/* <Image  src="github_2.png" alt="React" title="React" width={50} height={50} quality={100} /> */}
+            <a href="https://github.com/decofma"> 
+            <Image  src="/github.png" alt="React" width={50} height={50} quality={100} />
             </a>
-            <a href="https://linktr.ee/decofma"> Link
-            {/* <Image  src="link.png" alt="React" title="React" width={50} height={50} quality={100} /> */}
+            <a href="https://linktr.ee/decofma"> 
+            <Image  src="/ligacao.png" alt="React" width={50} height={50} quality={100} />
             </a>
           </div> 
         </div>  
