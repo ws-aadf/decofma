@@ -44,7 +44,8 @@ export default function Home() {
             <div className={styles.divider}/>        
 
             <p>
-              As the header says, I`m a software engineer and full stack systems analyst at <b>Wilson Sons</b>. I`m responsible for developing web-apps solutions and APIs for the entire company, from a solid backend to a functional UX driven frontend. I also worked at <b>Vtex</b> and had my Vtex IO certification to build fluid, functional and responsible e-commerces and <b>Banco Bradesco</b> where i had the experience to develop on IT project management. 
+              As the header says, I`m a software engineer and full stack systems analyst at <b>Wilson Sons</b>. I`m responsible for developing web-apps solutions and APIs for the entire company, from a solid backend to a functional UX driven frontend.
+              I also worked at <b>Vtex</b> and obtained my Vtex IO certification to develop fluid, functional and responsive e-commerce solutions. Moreover, I got the hang of managing IT projects during my time at <b>Banco Bradesco</b>.
             </p> 
           </div>
           <div id="techSection"/>
