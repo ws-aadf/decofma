@@ -31,6 +31,11 @@ const items = [
       command: () => router.push("/#techSection"),
    },
    {
+      label: "PROJECTS",
+      ClassName:"font-bold",
+      command: () => router.push("/#projectsSection"),
+   },
+   {
       label: "CONTACT ME",
       ClassName:"font-bold",
       command: () => router.push("/#contactSection"),
