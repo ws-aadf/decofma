@@ -45,7 +45,7 @@ export default function Home() {
 
             <p>
               As the header says, I`m a software engineer and full stack systems analyst at <b>Wilson Sons</b>. I`m responsible for developing web-apps solutions and APIs for the entire company, from a solid backend to a functional UX driven frontend.
-              I also worked at <b>Vtex</b> and obtained my Vtex IO certification to develop fluid, functional and responsive e-commerce solutions. Moreover, I got the hang of managing IT projects during my time at <b>Banco Bradesco</b>.
+              I also worked at <b>Vtex</b> and obtained my Vtex IO certification to develop fluid, functional and responsive e-commerce solutions. Moreover, I got the hang of Agile methodologies like Kanban and Scrum and gained valuable experience managing IT projects during my time at <b>Banco Bradesco</b>.
             </p> 
           </div>
           <div id="techSection"/>
