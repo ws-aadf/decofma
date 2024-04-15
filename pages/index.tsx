@@ -102,12 +102,12 @@ export default function Home() {
           <div className={styles.projectsGrid}>
             <div className={styles.project}>
               <div><Image  src="/adocat-mockup.png" alt="React" width={500} height={500} quality={100} /></div>
-              <div className={styles.projectTextContainer}><p className={styles.projectText}>Projeto de monografia, onde foi desenvolvido uma aplicação utlizando React Native, Prisma e SQLite para adoção de gatos.</p>
+              <div className={styles.projectTextContainer}><p className={styles.projectText}>Projeto de monografia, onde foi desenvolvido uma aplicação para adoção de gatos, utlizando React Native, Prisma, PostgreSQL, Render e SQLite.</p>
               </div>
             </div>
             <div className={styles.project}>
               <div><Image  src="/wppgpt-mockup.png" alt="React" width={500} height={500} quality={100} /></div>
-              <div className={styles.projectTextContainer}><p className={styles.projectText}>Projeto de estudo sobre a OpenAi, onde foi desenvolvido uma aplicação utlizando Typescript para criar um bot no WhatsApp de IA.</p>
+              <div className={styles.projectTextContainer}><p className={styles.projectText}>Projeto de estudo sobre a OpenAi, onde foi desenvolvido um chatbot no WhatsApp, utlizando Typescript.</p>
               </div>
             </div>
 
