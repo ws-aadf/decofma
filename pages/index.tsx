@@ -14,7 +14,7 @@ export default function Home() {
       <main className={styles.main}>
         
         <div id="homeSection" className={styles.imagecontainer}>
-            <Image  className={styles.image} src="/me.png" alt="yep, that's me" layout={"responsive"} width={100} height={65} quality={100} priority={true}/>
+            <Image  className={styles.image} src="/portfolio/public/me.png" alt="yep, that's me" width={100} height={65} quality={100} priority={true}/>
         </div>
 
         <h1 className={styles.title}>
@@ -33,9 +33,9 @@ export default function Home() {
         </h1>
         <div id="aboutSection"></div>
         <div className={styles.bio}>
-          <div className={styles.code}>
+          <div className={styles.code}> 
             I`m a software engineer and fullstack developer @ WilsonSons
-          </div>
+          </div> 
         </div>
         
         <div className={styles.cardContainer}>
@@ -44,7 +44,7 @@ export default function Home() {
             <div className={styles.divider}/>        
 
             <p>
-              As the header says, I`m a software engineer and full stack systems analyst at <b>Wilson Sons</b>. I`m responsible for developing web-apps solutions and APIs for the entire company, from a solid backend to a functional UX driven frontend. I also worked at <b>Vtex</b> and had my Vtex IO certification to build fluid responsibles e-commerces and <b>Banco Bradesco</b> where i had the experience to develop on IT project management. 
+              As the header says, I`m a software engineer and full stack systems analyst at <b>Wilson Sons</b>. I`m responsible for developing web-apps solutions and APIs for the entire company, from a solid backend to a functional UX driven frontend. I also worked at <b>Vtex</b> and had my Vtex IO certification to build fluid, functional and responsible e-commerces and <b>Banco Bradesco</b> where i had the experience to develop on IT project management. 
             </p> 
           </div>
           <div id="techSection"></div>

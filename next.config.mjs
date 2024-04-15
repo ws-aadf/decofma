@@ -1,11 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'export',
+  // output: 'export',
   images: {
-    loader: 'custom',
-    loaderFile: './my-loader.ts',
-  },
+    loader: "cloudinary",
+    path: "https://res.cloudinary.com/decofma",
+    domains: ['res.cloudinary.com']
+    
+  }
 };
 
 export default nextConfig;
